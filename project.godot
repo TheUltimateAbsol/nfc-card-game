@@ -8,15 +8,66 @@
 
 config_version=4
 
-_global_script_classes=[  ]
+_global_script_classes=[ {
+"base": "Card",
+"class": "Assist",
+"language": "GDScript",
+"path": "res://generator/classes/Assist.gd"
+}, {
+"base": "Object",
+"class": "Card",
+"language": "GDScript",
+"path": "res://generator/classes/Card.gd"
+}, {
+"base": "Assist",
+"class": "Emblem",
+"language": "GDScript",
+"path": "res://generator/classes/Emblem.gd"
+}, {
+"base": "Assist",
+"class": "Equipment",
+"language": "GDScript",
+"path": "res://generator/classes/Equipment.gd"
+}, {
+"base": "Node",
+"class": "Item",
+"language": "GDScript",
+"path": "res://generator/classes/Item.gd"
+}, {
+"base": "Object",
+"class": "Skill",
+"language": "GDScript",
+"path": "res://generator/classes/Skill.gd"
+}, {
+"base": "Assist",
+"class": "SuperAssist",
+"language": "GDScript",
+"path": "res://generator/classes/SuperAssist.gd"
+}, {
+"base": "Card",
+"class": "Unit",
+"language": "GDScript",
+"path": "res://generator/classes/Unit.gd"
+} ]
 _global_script_class_icons={
-
+"Assist": "",
+"Card": "",
+"Emblem": "",
+"Equipment": "",
+"Item": "",
+"Skill": "",
+"SuperAssist": "",
+"Unit": ""
 }
 
 [application]
 
 config/name="I'M SETO KAIBA AND I'M HERE TO KILL YOUR DOG"
 config/icon="res://icon.png"
+
+[autoload]
+
+Enums="*res://Enums.gd"
 
 [rendering]
 

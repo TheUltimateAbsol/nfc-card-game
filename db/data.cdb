@@ -1,0 +1,471 @@
+{
+	"sheets": [
+		{
+			"name": "unit",
+			"columns": [
+				{
+					"typeStr": "7",
+					"name": "pic",
+					"opt": true,
+					"display": null
+				},
+				{
+					"typeStr": "0",
+					"name": "id",
+					"display": null
+				},
+				{
+					"typeStr": "1",
+					"name": "name",
+					"display": null
+				},
+				{
+					"typeStr": "5:WHITE,YELLOW,RED,GREEN,BLUE",
+					"name": "color",
+					"display": null
+				},
+				{
+					"typeStr": "5:UNIT,SUPER_ASSIST,ITEM,EMBLEM,EQUIPMENT",
+					"name": "card_type",
+					"display": null
+				},
+				{
+					"typeStr": "8",
+					"name": "stats",
+					"display": null
+				},
+				{
+					"typeStr": "5:A,B,C,D,E",
+					"name": "type",
+					"display": null
+				},
+				{
+					"typeStr": "8",
+					"name": "skills",
+					"display": null
+				}
+			],
+			"lines": [
+				{
+					"id": "u1",
+					"name": "asdf",
+					"color": 0,
+					"card_type": 1,
+					"stats": [
+						{
+							"HP": 0,
+							"ATK": 0,
+							"DEF": 0,
+							"SPD": 0,
+							"CRT": 0,
+							"LCK": 0
+						}
+					],
+					"skills": [
+						{
+							"cost": [
+								{
+									"type": 0
+								},
+								{
+									"type": 1
+								}
+							],
+							"description": "does asdf",
+							"name": "asdf"
+						}
+					],
+					"type": 0
+				}
+			],
+			"separators": [],
+			"props": {}
+		},
+		{
+			"name": "item",
+			"columns": [
+				{
+					"typeStr": "7",
+					"name": "pic",
+					"opt": true,
+					"display": null
+				},
+				{
+					"typeStr": "0",
+					"name": "id",
+					"display": null
+				},
+				{
+					"typeStr": "1",
+					"name": "name",
+					"display": null
+				},
+				{
+					"typeStr": "5:WHITE,YELLOW,RED,GREEN,BLUE",
+					"name": "color",
+					"display": null
+				},
+				{
+					"typeStr": "5:UNIT,SUPER_ASSIST,ITEM,EMBLEM,EQUIPMENT",
+					"name": "card_type",
+					"display": null
+				},
+				{
+					"typeStr": "8",
+					"name": "conditions",
+					"display": null
+				},
+				{
+					"typeStr": "1",
+					"name": "effect_text",
+					"display": null
+				}
+			],
+			"lines": [
+				{
+					"id": "item1",
+					"name": "asdf",
+					"color": 0,
+					"card_type": 2,
+					"effect_text": "asdf",
+					"conditions": []
+				}
+			],
+			"separators": [],
+			"props": {}
+		},
+		{
+			"name": "emblem",
+			"columns": [
+				{
+					"typeStr": "7",
+					"name": "pic",
+					"opt": true,
+					"display": null
+				},
+				{
+					"typeStr": "0",
+					"name": "id",
+					"display": null
+				},
+				{
+					"typeStr": "1",
+					"name": "name",
+					"display": null
+				},
+				{
+					"typeStr": "5:WHITE,YELLOW,RED,GREEN,BLUE",
+					"name": "color",
+					"display": null
+				},
+				{
+					"typeStr": "5:UNIT,SUPER_ASSIST,ITEM,EMBLEM,EQUIPMENT",
+					"name": "card_type",
+					"display": null
+				},
+				{
+					"typeStr": "8",
+					"name": "conditions",
+					"display": null
+				},
+				{
+					"typeStr": "1",
+					"name": "effect_text",
+					"display": null
+				}
+			],
+			"lines": [
+				{
+					"id": "emblem1",
+					"name": "asdf",
+					"color": 0,
+					"card_type": 2,
+					"effect_text": "asdf",
+					"conditions": []
+				}
+			],
+			"separators": [],
+			"props": {}
+		},
+		{
+			"name": "super_assist",
+			"columns": [
+				{
+					"typeStr": "7",
+					"name": "pic",
+					"opt": true,
+					"display": null
+				},
+				{
+					"typeStr": "0",
+					"name": "id",
+					"display": null
+				},
+				{
+					"typeStr": "1",
+					"name": "name",
+					"display": null
+				},
+				{
+					"typeStr": "5:WHITE,YELLOW,RED,GREEN,BLUE",
+					"name": "color",
+					"display": null
+				},
+				{
+					"typeStr": "5:UNIT,SUPER_ASSIST,ITEM,EMBLEM,EQUIPMENT",
+					"name": "card_type",
+					"display": null
+				},
+				{
+					"typeStr": "8",
+					"name": "conditions",
+					"display": null
+				},
+				{
+					"typeStr": "1",
+					"name": "effect_text",
+					"display": null
+				}
+			],
+			"lines": [
+				{
+					"id": "super1",
+					"name": "asdf",
+					"color": 0,
+					"card_type": 2,
+					"effect_text": "asdf",
+					"conditions": []
+				}
+			],
+			"separators": [],
+			"props": {}
+		},
+		{
+			"name": "equipment",
+			"columns": [
+				{
+					"typeStr": "7",
+					"name": "pic",
+					"opt": true,
+					"display": null
+				},
+				{
+					"typeStr": "0",
+					"name": "id",
+					"display": null
+				},
+				{
+					"typeStr": "1",
+					"name": "name",
+					"display": null
+				},
+				{
+					"typeStr": "5:WHITE,YELLOW,RED,GREEN,BLUE",
+					"name": "color",
+					"display": null
+				},
+				{
+					"typeStr": "5:UNIT,SUPER_ASSIST,ITEM,EMBLEM,EQUIPMENT",
+					"name": "card_type",
+					"display": null
+				},
+				{
+					"typeStr": "8",
+					"name": "conditions",
+					"display": null
+				},
+				{
+					"typeStr": "1",
+					"name": "effect_text",
+					"display": null
+				},
+				{
+					"typeStr": "8",
+					"name": "stats"
+				}
+			],
+			"lines": [
+				{
+					"id": "equip1",
+					"name": "asdf",
+					"color": 0,
+					"card_type": 2,
+					"effect_text": "asdf",
+					"conditions": [],
+					"stats": []
+				}
+			],
+			"separators": [],
+			"props": {}
+		},
+		{
+			"name": "unit@stats",
+			"props": {
+				"hide": true
+			},
+			"separators": [],
+			"lines": [],
+			"columns": [
+				{
+					"typeStr": "3",
+					"name": "HP"
+				},
+				{
+					"typeStr": "3",
+					"name": "ATK"
+				},
+				{
+					"typeStr": "3",
+					"name": "DEF"
+				},
+				{
+					"typeStr": "3",
+					"name": "SPD"
+				},
+				{
+					"typeStr": "3",
+					"name": "CRT"
+				},
+				{
+					"typeStr": "3",
+					"name": "LCK"
+				}
+			]
+		},
+		{
+			"name": "unit@skills",
+			"props": {
+				"hide": true
+			},
+			"separators": [],
+			"lines": [],
+			"columns": [
+				{
+					"typeStr": "8",
+					"name": "cost",
+					"display": null
+				},
+				{
+					"typeStr": "1",
+					"name": "name",
+					"display": null
+				},
+				{
+					"typeStr": "1",
+					"name": "description"
+				}
+			]
+		},
+		{
+			"name": "unit@skills@cost",
+			"props": {
+				"hide": true
+			},
+			"separators": [],
+			"lines": [],
+			"columns": [
+				{
+					"typeStr": "5:WHITE,YELLOW,RED,GREEN,BLUE,COLORLESS",
+					"name": "type",
+					"display": null
+				}
+			]
+		},
+		{
+			"name": "item@conditions",
+			"props": {
+				"hide": true
+			},
+			"separators": [],
+			"lines": [],
+			"columns": [
+				{
+					"typeStr": "1",
+					"name": "description",
+					"display": null
+				}
+			]
+		},
+		{
+			"name": "emblem@conditions",
+			"props": {
+				"hide": true
+			},
+			"separators": [],
+			"lines": [],
+			"columns": [
+				{
+					"typeStr": "1",
+					"name": "description",
+					"display": null
+				}
+			]
+		},
+		{
+			"name": "super_assist@conditions",
+			"props": {
+				"hide": true
+			},
+			"separators": [],
+			"lines": [],
+			"columns": [
+				{
+					"typeStr": "1",
+					"name": "description",
+					"display": null
+				}
+			]
+		},
+		{
+			"name": "equipment@conditions",
+			"props": {
+				"hide": true
+			},
+			"separators": [],
+			"lines": [],
+			"columns": [
+				{
+					"typeStr": "1",
+					"name": "description",
+					"display": null
+				}
+			]
+		},
+		{
+			"name": "equipment@stats",
+			"props": {
+				"hide": true
+			},
+			"separators": [],
+			"lines": [],
+			"columns": [
+				{
+					"typeStr": "3",
+					"name": "HP"
+				},
+				{
+					"typeStr": "3",
+					"name": "ATK"
+				},
+				{
+					"typeStr": "3",
+					"name": "DEF"
+				},
+				{
+					"typeStr": "3",
+					"name": "SPD"
+				},
+				{
+					"typeStr": "3",
+					"name": "CRT"
+				},
+				{
+					"typeStr": "3",
+					"name": "LCK"
+				}
+			]
+		}
+	],
+	"customTypes": [],
+	"compress": false
+}
