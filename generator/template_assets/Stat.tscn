@@ -1,0 +1,46 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://generator/template_assets/stat.png" type="Texture" id=1]
+[ext_resource path="res://generator/template_assets/fonts/Stat.tres" type="Theme" id=2]
+
+[node name="Stat" type="NinePatchRect"]
+margin_right = 165.0
+margin_bottom = 50.0
+rect_min_size = Vector2( 165, 50 )
+size_flags_horizontal = 0
+theme = ExtResource( 2 )
+texture = ExtResource( 1 )
+patch_margin_left = 24
+patch_margin_top = 24
+patch_margin_right = 24
+patch_margin_bottom = 24
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+anchor_bottom = 1.0
+margin_left = 5.0
+margin_right = 60.0
+margin_bottom = -3.8147e-06
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "1"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label2" type="Label" parent="."]
+anchor_left = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -105.5
+margin_right = -3.50002
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+text = "ATK"
+align = 2
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
